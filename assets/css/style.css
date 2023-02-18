@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none !important;
+}
+
+.btn{
+  border-radius: 0 !important;
+  background:#370080cc !important;
+  color: beige !important;
+
+}
+.card{
+  border-radius: 0 !important;
+}
+header{
+  height: 70vh;
+  min-height: 300px;
+  background-size: cover;
+  background-image: url(/assets/img/three-people-riding-bikes.jpg);
+}
+header .text{
+    padding-top: 10rem !important;
+    padding-left: 5rem !important;
+    color: #fff;
+    line-height: 3vh;
+  }
+.navbar h1{
+    padding: 1rem 1.5rem;
+    background: #370080cc;
+    color: #fff;
+}
+.navbar .navbar-nav .icon i{
+    color: #fff;
+  }
+.navbar .nav-item .nav-link{
+    padding: 0 2rem;
+    color: #fff;
+  }
+.container{
+    line-height: 3vh !important;
+}
+#features .services-icon{
+    color: #370080cc !important;
+}
+#about{
+    padding-top: 5rem;
+    background: #f8f5f5 !important;
+}
+#services{
+    padding-top: 10rem;
+    background: #f8f5f5 !important;
+}
